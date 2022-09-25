@@ -1,0 +1,7 @@
+.container {
+	display: flex;
+}
+
+.fieldTask {
+	flex-grow: 1;
+}

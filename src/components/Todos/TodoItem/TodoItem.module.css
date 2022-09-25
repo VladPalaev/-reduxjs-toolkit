@@ -1,0 +1,25 @@
+.itemContainer {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+}
+
+.checkBox {
+	flex-basis: 10%;
+}
+
+.checkBox:checked + span {
+	text-decoration: line-through;
+}
+
+.text {
+	flex-grow: 1;
+}
+
+.btnDelete {
+	flex-basis: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
